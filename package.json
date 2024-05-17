@@ -1,7 +1,7 @@
 {
   "name": "@miemiemie/koishi-plugin-screeps-tool",
   "description": "screeps的简单工具。目前仅包含寻址",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,17 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "koishi": {
+    "description": {
+      "zh": "screeps的小工具。目前仅包含寻址"
+    }
+  },
   "keywords": [
-    "chatbot",
+    "screeps",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.17.6"
+    "koishi": "^4.11.9"
   }
 }
